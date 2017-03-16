@@ -8,5 +8,10 @@ namespace GitHubDemo
 {
     class NewClass
     {
+        public int CountDown(int factor)
+        {
+            int second = DateTime.Now.Second;
+            return second * factor;
+        }
     }
 }

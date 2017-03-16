@@ -8,5 +8,10 @@ namespace GitHubDemo
 {
     class NewClass
     {
+        public double CountDown(double theFactor)
+        {
+            int currentHour = DateTime.Now.Hour;
+            return currentHour / theFactor;
+        }
     }
 }
